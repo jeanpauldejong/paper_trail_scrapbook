@@ -21,10 +21,10 @@ Gem::Specification.new do |gem|
   gem.add_dependency 'activerecord'
   gem.add_dependency 'adamantium'
   gem.add_dependency 'concord'
-  gem.add_dependency 'paper_trail', ['>= 11', '< 13']
+  gem.add_dependency 'paper_trail', ['>= 11', '<= 15']
 
-  gem.add_development_dependency 'ffaker', '~> 2.5'
-  gem.add_development_dependency 'rake', '~> 13.0.1'
+  gem.add_development_dependency 'ffaker', '~> 2.20'
+  gem.add_development_dependency 'rake', '~> 13.1'
 
   # Why `railties`? Possibly used by `spec/dummy_app` boot up?
   gem.add_development_dependency 'railties', '>= 5.2.3'
@@ -40,5 +40,5 @@ Gem::Specification.new do |gem|
   gem.add_development_dependency 'rubocop'
   gem.add_development_dependency 'rubocop-rspec'
   gem.add_development_dependency 'simplecov'
-  gem.add_development_dependency 'timecop', '~> 0.8.0'
+  gem.add_development_dependency 'timecop', '~> 0.9'
 end
