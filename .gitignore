@@ -2,3 +2,6 @@ test.log
 .tool*
 
 coverage*
+
+# Ignore JetBrains IDE project files
+/.idea
